@@ -1,26 +1,81 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: 300;
+  src: url("/fonts/DMSans-Light.ttf") format("truetype");
+  font-display: swap;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@font-face {
+  font-family: 400;
+  src: url("/fonts/DMSans-Regular.ttf") format("truetype");
+  font-display: swap;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: 500;
+  src: url("/fonts/DMSans-Medium.ttf") format("truetype");
+  font-display: swap;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: 600;
+  src: url("/fonts/DMSans-SemiBold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 700;
+  src: url("/fonts/DMSans-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: play300;
+  src: url("/fonts/PlayfairDisplay-Italic.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: play400;
+  src: url("/fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: play500;
+  src: url("/fonts/PlayfairDisplay-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: play600;
+  src: url("/fonts/PlayfairDisplay-SemiBold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: play700;
+  src: url("/fonts/PlayfairDisplay-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: play900;
+  src: url("/fonts/PlayfairDisplay-ExtraBold.ttf") format("truetype");
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: play900italic;
+  src: url("/fonts/PlayfairDisplay-ExtraBoldItalic.ttf") format("truetype");
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: playitalic;
+  src: url("/fonts/PlayfairDisplay-Italic.ttf") format("truetype");
+  font-display: swap;
 }
