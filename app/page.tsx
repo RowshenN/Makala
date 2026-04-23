@@ -5,9 +5,10 @@ import ThisWeek from "@/components/home/ThisWeek";
 import Link from "next/link";
 
 export default function Home() {
+
   return (
     <div className="">
-      <HomeMain />        
+      <HomeMain />
       <ThisWeek />
       <LastIssues />
       <SearchAndFilter />

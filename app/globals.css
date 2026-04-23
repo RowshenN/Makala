@@ -1,81 +1,75 @@
 @import "tailwindcss";
 
+/* --- DM SANS --- */
 @font-face {
-  font-family: 300;
+  font-family: "DMSans";
   src: url("/fonts/DMSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; /* Fixed from 'light' */
   font-display: swap;
 }
 
 @font-face {
-  font-family: 400;
+  font-family: "DMSans";
   src: url("/fonts/DMSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 500;
+  font-family: "DMSans";
   src: url("/fonts/DMSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; /* Fixed from 'medium' */
   font-display: swap;
 }
 
 @font-face {
-  font-family: 600;
+  font-family: "DMSans";
   src: url("/fonts/DMSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; /* Fixed from 'semibold' */
   font-display: swap;
 }
 
 @font-face {
-  font-family: 700;
+  font-family: "DMSans";
   src: url("/fonts/DMSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; /* Fixed from 'bold' */
   font-display: swap;
 }
 
+/* --- PLAYFAIR --- */
 @font-face {
-  font-family: play300;
-  src: url("/fonts/PlayfairDisplay-Italic.ttf") format("truetype");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: play400;
+  font-family: "Playfair";
   src: url("/fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: play500;
-  src: url("/fonts/PlayfairDisplay-Medium.ttf") format("truetype");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: play600;
-  src: url("/fonts/PlayfairDisplay-SemiBold.ttf") format("truetype");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: play700;
-  src: url("/fonts/PlayfairDisplay-Bold.ttf") format("truetype");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: play900;
-  src: url("/fonts/PlayfairDisplay-ExtraBold.ttf") format("truetype");
-  font-display: swap;
-}
-
-
-@font-face {
-  font-family: play900italic;
-  src: url("/fonts/PlayfairDisplay-ExtraBoldItalic.ttf") format("truetype");
-  font-display: swap;
-}
-
-
-@font-face {
-  font-family: playitalic;
+  font-family: "Playfair";
   src: url("/fonts/PlayfairDisplay-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; /* Correct way to handle italics */
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair";
+  src: url("/fonts/PlayfairDisplay-ExtraBold.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair";
+  src: url("/fonts/PlayfairDisplay-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic; /* Differentiates from the normal 900 */
   font-display: swap;
 }
