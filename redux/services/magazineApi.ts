@@ -1,5 +1,6 @@
 // src/redux/api/magazineApi.ts
 
+import { BASE_URL } from "@/utils/const";
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 export interface Magazine {
@@ -10,7 +11,7 @@ export interface Magazine {
 export const magazineApi = createApi({
   reducerPath: "magazineApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:5000/",
+    baseUrl: BASE_URL,
   }),
   tagTypes: ["Magazine"],
 

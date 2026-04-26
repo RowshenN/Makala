@@ -1,10 +1,11 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { Issue, IssueWithArticles } from "@/types/issue";
+import { BASE_URL } from "@/utils/const";
 
 export const issueApi = createApi({
   reducerPath: "issueApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:5000/",
+    baseUrl: BASE_URL,
   }),
   tagTypes: ["Issue"],
 

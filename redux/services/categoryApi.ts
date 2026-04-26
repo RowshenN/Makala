@@ -1,3 +1,4 @@
+import { BASE_URL } from "@/utils/const";
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 export interface Category {
@@ -8,7 +9,7 @@ export interface Category {
 export const categoryApi = createApi({
   reducerPath: "categoryApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:5000/",
+    baseUrl: BASE_URL,
   }),
   tagTypes: ["Category"],
 
