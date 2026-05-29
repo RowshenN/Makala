@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://makalabackend.onrender.com/'
+export const BASE_URL = 'http://72.62.243.185'
